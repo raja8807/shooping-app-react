@@ -1,0 +1,50 @@
+.product{
+    width: 350px;
+    /* border: 2px solid #1a71fe; */
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product:hover{
+    box-shadow: 0px 0px 10px 1px #c6ecff;
+    transform: scale(1.1);
+}
+
+.product-image img{
+    width: 100%;
+}
+
+.prod-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.prod-rating{
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+}
+
+.prod-price{
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.offer-btn{
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #c6ecff;
+    margin-top: 10px;
+}
+
+.offer-btn:hover{
+    background-color: #1a71fe;
+}
+
